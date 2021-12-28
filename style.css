@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.calc-body{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    border-radius: 15px;
+    width: 235px;
+    background-color: #000;
+    color: #fff;
+}
+.display{
+    height: 160px;
+    color: #fff;
+    position: relative;
+}
+.display p{
+    width: 221px;
+    position: absolute;
+    bottom: 0px;
+    padding-right: 9px;
+    text-align: end;
+    font-size: 43px;
+}
+.actions{
+    display: flex;
+    height: 300px;
+}
+table{
+    /*width: 100%;*/
+    border-spacing: 7px;
+    text-align: center;
+    font-size: 22px;
+}
+.sci{
+    display: none;
+}
+.simp td{
+    margin: 4px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #333333;
+    border-radius: 50%;
+}
+td:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+.grey{
+    background-color: #a5a5a5 !important;
+    color: #000;
+}
+.yellow{
+    background-color: #f1a33c !important;
+}
+.grey:hover{
+    background-color: #737373 !important;
+}
+.yellow:hover{
+    background-color: #f3c99f !important;
+    /*color: #f1a33c !important;*/
+}
+.zero{
+    border-radius: 50px !important;
+    padding-left: 20px;
+    text-align: start !important;
+}
+.scientific .sci{
+    display: block;
+}
